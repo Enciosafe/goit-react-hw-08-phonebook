@@ -1,0 +1,14 @@
+.containerForm {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    padding: 10px;
+}
