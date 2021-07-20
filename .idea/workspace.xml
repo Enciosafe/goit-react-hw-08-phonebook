@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37a0d3dc-6a04-41d8-99d4-19c62844dbca" name="Default Changelist" comment="1" />
+    <list default="true" id="37a0d3dc-6a04-41d8-99d4-19c62844dbca" name="Default Changelist" comment="1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppBar/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppBar/Navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PrivateRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PrivateRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PublicRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PublicRoute.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth/auth-reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth/auth-reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/auth/auth-selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth/auth-selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +60,7 @@
       <workItem from="1626367958993" duration="58000" />
       <workItem from="1626453328451" duration="2165000" />
       <workItem from="1626553992283" duration="21000" />
-      <workItem from="1626554045151" duration="31236000" />
+      <workItem from="1626554045151" duration="37401000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1626713978818</created>

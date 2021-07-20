@@ -15,7 +15,7 @@ const Navigation = ({isAuthenticated}) => {
     return (
         <div className={s.leftContainer}>
             <NavLink to={'/home'} className={s.item} activeStyle={activeStyles.activeLink}>Home</NavLink>
-            {isAuthenticated && <NavLink to={'/Phonebook'} className={s.item} activeStyle={activeStyles.activeLink}>Phonebook</NavLink>}
+            {isAuthenticated && <NavLink to={'/contacts'} className={s.item} activeStyle={activeStyles.activeLink}>Phonebook</NavLink>}
         </div>
     );
 };
