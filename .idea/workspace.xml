@@ -1,16 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37a0d3dc-6a04-41d8-99d4-19c62844dbca" name="Default Changelist" comment="1">
+    <list default="true" id="37a0d3dc-6a04-41d8-99d4-19c62844dbca" name="Default Changelist" comment="final">
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Login/Login.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PhoneBook/Filter/Filter.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PhoneBook/Phonebook.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppBar/AppBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppBar/AppBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppBar/AppBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppBar/AppBar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppBar/AuthNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppBar/AuthNav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppBar/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppBar/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PrivateRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PrivateRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PublicRoute.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PublicRoute.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/auth/auth-reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth/auth-reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/auth/auth-selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/auth/auth-selectors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PhoneBook/ContactForm/ContactForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PhoneBook/ContactForm/ContactForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PhoneBook/ContactForm/InputForm/InputForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PhoneBook/ContactForm/InputForm/InputForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PhoneBook/ContactList/ContactList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PhoneBook/ContactList/ContactList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PhoneBook/ContactList/ContactList.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PhoneBook/ContactList/ContactList.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PhoneBook/Filter/Filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PhoneBook/Filter/Filter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PhoneBook/Phonebook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PhoneBook/Phonebook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Registration/Registration.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Registration/Registration.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/User/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -42,12 +59,30 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/PhoneBook" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,7 +95,8 @@
       <workItem from="1626367958993" duration="58000" />
       <workItem from="1626453328451" duration="2165000" />
       <workItem from="1626553992283" duration="21000" />
-      <workItem from="1626554045151" duration="37401000" />
+      <workItem from="1626554045151" duration="38670000" />
+      <workItem from="1626948055305" duration="16741000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1626713978818</created>
@@ -69,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626713978818</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="final">
+      <created>1626800523239</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626800523239</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +132,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
 </project>

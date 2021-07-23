@@ -7,6 +7,7 @@ import PropTypes from "prop-types";
 import {connect} from "react-redux";
 import {contactsOperations} from "../../redux/contacts";
 import {contactsSelectors} from "../../redux/contacts";
+import s from "./Phonebook.module.css"
 
 
 class Phonebook extends React.Component {
@@ -19,11 +20,26 @@ class Phonebook extends React.Component {
     render()
     {
         return <>
-            <h1>Phonebook</h1>
-            <ContactForm contacts={this.props.contacts}/>
-            <h2>Contacts</h2>
-            {this.props.contacts.length > 1 && <Filter/>}
-            <ContactList/>
+            <div className={s.container}>
+                <div className={s.itemLeft}>
+                    <h1 className={s.Phonebook}>📞 Phonebook</h1>
+                    <ContactForm contacts={this.props.contacts}/>
+                </div>
+                <div className={s.item}>
+                    <div>
+                        <h1 className={s.Phonebook}>Contacts️</h1>
+                        <ContactList/>
+                    </div>
+                </div>
+                <div className={s.itemRight}>
+                    <div>
+                        <h1 className={s.Phonebook}>Filter ️👀</h1>
+                        {this.props.contacts.length === 0 && <span className={s.Phonebook}>you don't have any contact ☹️</span>}
+                        {this.props.contacts.length > 1 && <Filter/>}
+                    </div>
+
+                </div>
+            </div>
         </>
     }
 }

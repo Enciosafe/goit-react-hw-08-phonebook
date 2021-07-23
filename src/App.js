@@ -29,7 +29,8 @@ class App extends Component {
             </div>
             <Suspense fallback={<p>...Loading</p>}>
                 <Switch>
-                    <PublicRoute exact path={'/home'} component={Home}/>
+                    <PublicRoute exact path={'/'} component={Home}/>
+                    <PublicRoute path={'/home'} component={Home}/>
                     <PublicRoute path={'/registration'} restricted redirectTo='/contacts' component={Registration} />
                     <PublicRoute path={'/login'} restricted redirectTo='/contacts' component={Login} />
                     <PrivateRoute path={'/contacts'} component={Phonebook} redirectTo='/login' />

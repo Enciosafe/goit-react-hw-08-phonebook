@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {connect} from "react-redux";
 import {authOperations} from "../../redux/auth";
+import {Button, TextField} from "@material-ui/core";
+import s from "./Login.module.css"
 
 
 class Login extends Component {
@@ -27,31 +29,32 @@ class Login extends Component {
         const {email, password} = this.state
 
         return (
-            <div>
-                <h1>LOGIN FORM</h1>
-                <form onSubmit={this.handleSubmit}
-                      autoComplete='off'
-                >
-                    <label>
-                        Email
-                        <input type="email"
-                               name='email'
-                               value={email}
-                               onChange={this.handleChange}
-                        />
-                    </label>
+            <div className={s.container}>
 
-                    <label>
-                        Password
-                        <input type="password"
-                               name='password'
-                               value={password}
-                               onChange={this.handleChange}
-                        />
-                    </label>
-                    <button type={"submit"}>SignIN</button>
+                <div>
+                    <h1 className={s.login}>LOGIN FORM</h1>
+                    <form onSubmit={this.handleSubmit}
+                          autoComplete='off' className={s.containerForm}>
+                        <TextField
+                            id="standard-basic"
+                            label="email"
+                            type="email"
+                            name="email"
+                            value={email}
+                            onChange={this.handleChange} >
+                        </TextField>
+                        <TextField
+                            id="standard-basic"
+                            label="password"
+                            type="password"
+                            name="password"
+                            value={password}
+                            onChange={this.handleChange} >
+                        </TextField>
+                        <Button className={s.button} type={"submit"}>SignIN</Button>
+                    </form>
+                </div>
 
-                </form>
 
             </div>
         );

@@ -12,7 +12,6 @@ class ContactForm extends React.Component {
         name: '',
         number: '',
         id:'',
-        sex: 'male'
     }
 
     handleChange = e => {

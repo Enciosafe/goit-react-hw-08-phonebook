@@ -1,8 +1,15 @@
+import s from './Home.module.css'
+
+
+
 
 
 const Home = () => {
     return <>
-      <h1>🌈PHONEBOOK HOMEPAGE</h1>
+        <div className={s.container}>
+            <h1 className={s.text}>🤘Here could be your advertisement🤘</h1>
+        </div>
+
     </>
 }
 

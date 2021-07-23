@@ -1,6 +1,7 @@
 import React from 'react';
 import s from "./AppBar.module.css";
 import {NavLink} from "react-router-dom";
+import {Button} from "@material-ui/core";
 
 const activeStyles = {
     activeLink: {
@@ -11,8 +12,12 @@ const activeStyles = {
 const AuthNav = () => {
     return (
         <div className={s.rightContainer}>
-            <NavLink to={'/registration'} className={s.item} activeStyle={activeStyles.activeLink}>Registration</NavLink>
-            <NavLink to={'/login'} className={s.item} activeStyle={activeStyles.activeLink}>Authentication</NavLink>
+            <Button>
+                <NavLink to={'/registration'} className={s.item} activeStyle={activeStyles.activeLink}>Registration</NavLink>
+            </Button>
+            <Button>
+                <NavLink to={'/login'} className={s.item} activeStyle={activeStyles.activeLink}>Authentication</NavLink>
+            </Button>
         </div>
     );
 };

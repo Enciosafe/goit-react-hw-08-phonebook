@@ -5,6 +5,8 @@ import {connect} from "react-redux";
 import {authSelectors} from "../../redux/auth";
 
 
+
+
 const AppBar = ({isAuthenticated}) => {
 
     return <>

@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import s from "./Registration.module.css"
 import {connect} from "react-redux";
 import {authOperations} from "../../redux/auth";
+import Button from '@material-ui/core/Button';
+import {TextField} from "@material-ui/core";
+
 
 
 class Registration extends Component  {
@@ -31,40 +34,36 @@ class Registration extends Component  {
         return (
             <div  className={s.container}>
                 <div>
-                    <h1>REGISTRATION</h1>
+                    <h1 className={s.registration}>REGISTRATION</h1>
                     <form onSubmit={this.handleSubmit}
                           autoComplete='off'
                           className={s.containerForm}
                     >
-
-                        <label className={s.item}>
-                            Name
-                            <input type="name"
-                                   name='name'
-                                   value={name}
-                                   onChange={this.handleChange}
-                            />
-                        </label>
-
-                        <label className={s.item}>
-                            Email
-                            <input type="email"
-                                   name='email'
-                                   value={email}
-                                   onChange={this.handleChange}
-                            />
-                        </label>
-
-                        <label className={s.item}>
-                            Password
-                            <input type="password"
-                                   name='password'
-                                   value={password}
-                                   onChange={this.handleChange}
-                            />
-                        </label>
-
-                        <button type={"submit"}>registration</button>
+                        <TextField
+                            id="standard-basic"
+                            label="name"
+                            type="name"
+                            name="name"
+                            value={name}
+                            onChange={this.handleChange} >
+                        </TextField>
+                        <TextField
+                            id="standard-basic"
+                            label="email"
+                            type="email"
+                            name="email"
+                            value={email}
+                            onChange={this.handleChange} >
+                        </TextField>
+                        <TextField
+                            id="standard-basic"
+                            label="password"
+                            type="password"
+                            name="password"
+                            value={password}
+                            onChange={this.handleChange} >
+                        </TextField>
+                        <Button className={s.button} type={"submit"}>registration</Button>
                     </form>
                 </div>
             </div>
